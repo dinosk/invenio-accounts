@@ -32,6 +32,7 @@ readme = open('README.rst').read()
 history = open('CHANGES.rst').read()
 
 tests_require = [
+    'SQLAlchemy-Continuum>=1.2.1',
     'Flask-CeleryExt>=0.2.2',
     'Flask-Mail>=0.9.1',
     'check-manifest>=0.25',
